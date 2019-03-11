@@ -1,0 +1,23 @@
+{
+  "update_id": @@UPDATE_ID,
+  "message": {
+    "message_id": @@MESSAGE_ID,
+    "from": {
+      "id": @@USER_ID,
+      "is_bot": @@IS_BOT,
+      "first_name": "@@USER_FIRST_NAME",
+      "last_name": "@@USER_LAST_NAME",
+      "username": "@@USER_USERNAME",
+      "language_code": "en"
+    },
+    "chat": {
+      "id": @@CHAT_ID,
+      "first_name": "@@USER_FIRST_NAME",
+      "last_name": "@@USER_LAST_NAME",
+      "username": "@@USER_USERNAME",
+      "type": "private"
+    },
+    "date": @@CURRENT_TIMESTAMP,
+    "text": @@COMMAND_WORD
+  }
+}

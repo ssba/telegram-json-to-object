@@ -1,0 +1,19 @@
+{
+    "name": "ssba/telegram-json-to-object",
+    "description": "Convert Telegram API JSON Response to PHP objects",
+    "type": "library",
+    "license": "Apache-2.0",
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "ssba\\TelegramJsonToObject\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "6.5",
+        "fzaninotto/faker": "^1.8"
+    }
+}
